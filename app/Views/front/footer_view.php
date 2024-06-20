@@ -2,7 +2,7 @@
     
     <div class="d-flex flex-nowrap">
         <div class="order-2 p-2">
-            <p>&copy; 2024 Relojes Correntinos. Todos los derechos reservados.</p>
+            <p>&copy; 2024 BEVIMAX Fotografía. Todos los derechos reservados.</p>
         </div>
         <div class=" order-3 p-2">
         <p>Síguenos en:
