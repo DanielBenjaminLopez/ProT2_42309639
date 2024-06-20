@@ -1,12 +1,19 @@
-<footer>
-        <p>&copy; 2024 Relojes Correntinos. Todos los derechos reservados.</p>
-        <p>Contacto: <a href="">relojescorrentinos@talentosdigitales.com</a></p>
+<footer class=" bg-dark bg-gradient text-light d-flex justify-content-center fixed-bottom">
+    
+    <div class="d-flex flex-nowrap">
+        <div class="order-2 p-2">
+            <p>&copy; 2024 Relojes Correntinos. Todos los derechos reservados.</p>
+        </div>
+        <div class=" order-3 p-2">
         <p>Síguenos en:
-            <a href="https://www.facebook.com/relojescorrentinos" target="_blank">Facebook</a> |
-            <a href="https://www.twitter.com/relojescorrentinos" target="_blank">Twitter</a> |
-            <a href="https://www.instagram.com/relojescorrentinos" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/relojescorrentinos" target="_blank"> <img src="assets/img/facebook.png" alt="Logo" width="32" height="32"></a>|
+            <a href="https://www.twitter.com/relojescorrentinos" target="_blank"><img src="assets/img/Twitter.jpg" alt="Logo" width="27" height="27" class="rounded"></a>|
+            <a href="https://www.instagram.com/relojescorrentinos" target="_blank"><img src="assets/img/instagram.png" alt="Logo" width="30" height="30"></a>
         </p>
-    </footer>
+        </div>
+    </div>
+
+</footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
