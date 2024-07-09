@@ -1,4 +1,4 @@
-<h1 class="d-flex justify-content-center text-light fw-bold p-2 opacity-80 sticky-top bg-dark border border-dark">BEVIMAX FOTOGRAFÍAS</h1>
+<h1 class="d-flex justify-content-center text-light fw-bold p-2 opacity-80 sticky-top bg-dark border border-dark" style="z-index: 500;">BEVIMAX FOTOGRAFÍAS</h1>
 <!-- Carrusel -->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner" style="max-height: 500px; overflow: hidden;">

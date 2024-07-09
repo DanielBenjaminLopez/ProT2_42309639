@@ -10,11 +10,11 @@
 
             <?php if (session()->perfil_id == 1) : ?>
                 <div class="alert alert-warning">
-                    <img src="<?php echo base_url('assets/img/admin.jpg'); ?>" alt="" class="center">
+                    <img class="img-fluid" src="<?php echo base_url('assets/img/admin.jpg'); ?>" alt="" class="center">
                 </div>
             <?php elseif (session()->perfil_id == 2) : ?>
                 <div class="alert alert-warning">
-                    <img src="<?php echo base_url('assets/img/cliente.png'); ?>" alt="" class="center">
+                    <img class="img-fluid" src="<?php echo base_url('assets/img/cliente.png'); ?>" alt="" class="center">
                 </div>
             <?php endif; ?>
         </div>

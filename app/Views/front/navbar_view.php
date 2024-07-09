@@ -11,10 +11,11 @@ $perfil = $session->get('perfil_id');
       <span class="navbar-toggler-icon border border-light"> </span>
     </button>
     <?php if (session()->perfil_id == 1) : ?>
-      <div class="btn btn-secondary active btnUser btn-sm">
+      <div class="btn btn-secondary active btnUser btn-sm bg-light mx-3">
         <a href="">ADMIN: <?php echo session('nombre'); ?> </a>
       </div>
-      //OPCIONES DE ADMIN--------------------------------------------------------------------------------------
+
+      <!-- OPCIONES ADMINISTRADOR LOGEADO (Y SI) -->
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li>
@@ -34,7 +35,7 @@ $perfil = $session->get('perfil_id');
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index: 1500;">
               Consultas
             </a>
             <ul class="dropdown-menu text-light ">
@@ -54,10 +55,11 @@ $perfil = $session->get('perfil_id');
       </div>
 
     <?php elseif (session()->perfil_id == 2) : ?>
-      <div class="btn btn-secondary active btnUser btn-sm">
+      <div class="btn btn-secondary active btnUser btn-sm bg-light mx-3 ">
         <a href="">CLIENTE: <?php echo session('nombre'); ?> </a>
       </div>
-      //OPCIONES DE CLIENTE LOGEADO----------------
+
+      <!-- OPCIONES CLIENTES LOGEADOS -->
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li>
@@ -99,7 +101,7 @@ $perfil = $session->get('perfil_id');
         </form>
       </div>
     <?php else : ?>
-      //NO LOGEADOS----------------------------------------------
+      <!-- OPCIONES PARA NO LOGEADOS -->
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li>

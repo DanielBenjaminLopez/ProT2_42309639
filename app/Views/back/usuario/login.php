@@ -9,7 +9,7 @@
 
 					<!-- ERROR -->
 					<?php if (session()->getFlashdata('msg')) : ?>
-						<div class='alert alert-danger mt-2'>
+						<div class='alert alert-warning mt-2'>
 							<?= session()->getFlashdata('msg'); ?>
 						</div>
 					<?php endif; ?>
